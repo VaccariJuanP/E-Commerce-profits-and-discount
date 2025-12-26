@@ -55,6 +55,9 @@ Main visualizations: bar charts, scatter plots, tables, KPI cards.
 
 📷 Screenshots of the dashboard are included in this repository.
 
+(assets/Looker - P1.jpg)
+(assets/Looker - P2.jpg)
+(assets/Looker - P3.jpg)
 
 
 💡 Key Insights
