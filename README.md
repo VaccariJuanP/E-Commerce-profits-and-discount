@@ -1,52 +1,77 @@
-# E-Commerce-profits-and-discount
-Sales &amp; Profit Analysis using Looker Studio — Identifying loss-driving products and discount strategies through exploratory data analysis.
+📊 E-Commerce Profits & Discount Analysis
 
-## 📌 Project Overview
-Exploratory analysis of sales, profitability, and discount strategies using Looker Studio.
+Business analysis of sales, profit, and discount strategies to identify loss-driving products and regions.
+
+🔗 Interactive Dashboard (Looker Studio):
+https://lookerstudio.google.com/reporting/3ed05329-6b5f-4f18-8cb0-da1d6ca28baf
+
+📌 Project Overview
+
+This project analyzes an e-commerce sales dataset to understand how discount strategies impact profitability across regions and product categories.
+The goal is to identify where and why losses occur, and to derive actionable insights to improve business performance.
+
+🎯 Objectives
+
+Understand the relationship between sales, profit, and discounts
+
+Identify regions and products generating losses
+
+Generate actionable business insights for pricing and discount strategies
+
+📊 Dataset
+
+Source: Kaggle – Superstore Sales
+https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales
+
+~10,000 records
+
+Granularity: one row per product within an order
+
+🧹 Data Cleaning & Validation
+
+Duplicate checks
+
+Date validation and delivery consistency
+
+Negative and invalid values detection
+
+Discount range analysis
+
+Profit vs sales consistency checks
+
+🔍 Analysis & Dashboard
+
+The interactive dashboard includes 5 pages focusing on different aggregation levels:
+
+State-level performance
+
+Category and subcategory profitability
+
+Discount impact on profit
+
+Sales vs profit dispersion analysis
+
+Main visualizations: bar charts, scatter plots, tables, KPI cards.
+
+📷 Screenshots of the dashboard are included in this repository.
 
 
-## 🎯 Objectives
-- Understand the relationship between sales, profit, and discounts
-- Identify regions and products generating losses
-- Generate actionable business insights
 
+💡 Key Insights
 
-## 📊 Dataset
-Source: Kaggle – Superstore Sales  
-https://www.kaggle.com/datasets/ishanshrivastava28/superstore-sales  
+States with negative profit show average discounts above 25%
 
+One product category significantly reduces overall profitability
 
-- ~10,000 records
-- Granularity: one row per product within an order
+High sales volume does not guarantee positive profit
 
+Losses are concentrated in specific subcategories with aggressive discounts
 
-## 🧹 Data Cleaning & Validation
-- Duplicate checks
-- Date validation
-- Negative and invalid values
-- Discount range analysis
-- Profit vs sales consistency checks
+🛠 Tools Used
 
+Google Sheets (data validation)
 
-## 🔍 Analysis & Dashboard
-Interactive dashboard built in Looker Studio:  
-https://lookerstudio.google.com/reporting/3ed05329-6b5f-4f18-8cb0-da1d6ca28baf  
-
-
-- 5 pages
-- Analysis by State, Category, and Subcategory
-- Visualizations: bar charts, scatter plots, tables, KPI cards
-
-
-## 💡 Key Insights
-- States with losses show average discounts above 25%
-- One product category significantly reduces overall profitability
-- High sales volume does not guarantee positive profit
-
-
-## 🛠 Tools Used
-- Google Sheets
-- Looker Studio
+Looker Studio (dashboard & analysis)
 
 
 
